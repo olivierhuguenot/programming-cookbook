@@ -5,3 +5,9 @@ Clos Venv: deactivate
 
 Run docs: python -m mkdocs serve
 Close docs: Control + C
+
+Include snippets:
+
+{!../java/src/main/java/com/example/App.java!}
+{!../kotlin/src/main/kotlin/com/example/Main.kt!}
+{!../javascript/src/index.js!}
