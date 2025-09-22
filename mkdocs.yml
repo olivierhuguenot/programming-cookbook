@@ -1,11 +1,19 @@
 site_name: Programming Cookbook
-nav:
-  - Home: index.md
-  - Java: java.md
-  - Kotlin: kotlin.md
-  - JavaScript: javascript.md
 theme:
   name: material
+  font:
+    code: Roboto Mono
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+  - pymdownx.superfences
+
 plugins:
   - search
   - include-markdown

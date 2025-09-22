@@ -1,13 +1,12 @@
-Documentation using: mkdocs-material and mkdocs-include-markdown-plugin
+### MkDocs Reference
+https://jimandreas.github.io/mkdocs-material/reference/buttons/
 
-Start Venv: source venv/bin/activate
-Clos Venv: deactivate
+### Start Documentation Site
+<p>Start Venv: source venv/bin/activate
+Clos Venv: deactivatee
 
 Run docs: python -m mkdocs serve
 Close docs: Control + C
 
-Include snippets:
+### Include Code snippets:
 
-{!../java/src/main/java/com/example/App.java!}
-{!../kotlin/src/main/kotlin/com/example/Main.kt!}
-{!../javascript/src/index.js!}
